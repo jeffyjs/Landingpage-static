@@ -1,0 +1,83 @@
+.container {
+  max-width: 960px;
+  
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.site-header {
+  background-color: rgba(253, 253, 253, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  
+}
+.site-header a {
+  color: rgb(7, 7, 7);
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: rgb(230, 2, 2);
+  text-decoration: none;
+}
+
+.lol{
+  background: url(https://fdn.gsmarena.com/imgroot/reviews/20/oneplus-8t/-728x314/thumb.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-mobile{
+  background: url(https://www.gizbot.com/images/2020-03/oneplus-8-concept_158564655810.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-headphone{
+  background: url(https://www.businessinsider.in/thumb.cms?msid=77091127&width=1200&height=900);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.red-head{
+  color: red;
+}
+.landing-image{
+  color: #e5e5e5;
+}
+.poster-pic{
+  background: url(https://cdn.shopify.com/s/files/1/0153/8863/articles/Headphone-Zone-Blog-Post-One-Plus7T-1350-600-1_2048x.progressive.jpg?v=1569926763);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-nav{
+  margin-left: 30%;
+}
+.nav-item{
+  padding-right: 10%;
+  font-size: 20px;
+}
+nav{
+  color: aqua;
+}
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+
